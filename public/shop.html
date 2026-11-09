@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#11110f">
+    <meta name="description" content="Shop the T:10 Watches collection of considered timepieces.">
+    <title>Shop the collection | T:10 Watches</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="watch-store.css">
+    <script src="store.js" defer></script>
+</head>
+<body>
+    <div class="announcement-bar">A considered collection of everyday icons <span>Complimentary delivery on every order</span></div>
+    <header class="site-header">
+        <a class="wordmark" href="/" aria-label="T:10 Watches home"><span>T:10</span><small>WATCHES</small></a>
+        <nav class="main-navigation" aria-label="Main navigation"><a class="is-current" href="/shop.html">Shop all</a><a href="/#story">Our point of view</a></nav>
+        <a class="header-admin-link" href="/login.html">Admin <span aria-hidden="true">↗</span></a>
+    </header>
+    <main class="shop-main">
+        <section class="shop-heading"><p class="eyebrow eyebrow-gold">T:10 WATCHES</p><h1>The collection</h1><p>Timepieces chosen for the way you live, and the years ahead.</p></section>
+        <div class="shop-controls"><p id="shop-count" aria-live="polite">Finding your next favourite…</p><label for="availability-filter">Availability <select id="availability-filter"><option value="all">All watches</option><option value="Available">Available now</option><option value="Sold out">Sold out</option></select></label></div>
+        <div class="product-grid shop-grid" id="shop-watches" aria-live="polite" aria-busy="true"></div>
+    </main>
+    <footer class="site-footer"><a class="wordmark wordmark-footer" href="/" aria-label="T:10 Watches home"><span>T:10</span><small>WATCHES</small></a><p>Time, considered. Since always.<br><a class="footer-contact" data-whatsapp-contact href="https://wa.me/2348147781361" target="_blank" rel="noreferrer">WhatsApp 08147781361</a></p><nav aria-label="Footer navigation"><a href="/">Home</a><a href="/login.html">Admin access</a></nav><small>© <span id="current-year"></span> T:10 Watches</small></footer>
+    <a class="whatsapp-float" data-whatsapp-contact href="https://wa.me/2348147781361" target="_blank" rel="noreferrer" aria-label="Chat with T:10 Watches on WhatsApp" title="Chat with T:10 Watches on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.2 11.7a8.2 8.2 0 0 1-12.1 7.2L3.8 20l1.2-4.1a8.2 8.2 0 1 1 15.2-4.2Z"/><path d="M9 8.4c.2-.4.4-.4.7-.4h.4c.2 0 .4.1.5.4l.7 1.7c.1.2 0 .4-.1.6l-.5.6c-.2.2-.2.4 0 .6.4.7 1 1.3 1.7 1.7.2.1.4.1.6-.1l.7-.8c.2-.2.4-.2.6-.1l1.6.8c.2.1.3.3.3.5 0 .4-.2 1-.6 1.3-.4.4-1 .6-1.6.5-1-.1-2.2-.7-3.4-1.7-1-.9-1.8-2-2-3-.2-.9 0-1.6.4-2.1Z"/></svg></a>
+</body>
+</html>
